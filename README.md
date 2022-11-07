@@ -1,5 +1,5 @@
 # Description
-This project was to finish writing the variables, functions, and math needed to finish the task of creating a unique password with the conditions: Numbers, Special Characters, Lowercase Letters, and Uppercase Letters.
+This project was to finish writing the variables, functions, and math needed to complete the task of creating a unique password with these conditions: Numbers, Special Characters, Lowercase Letters, and Uppercase Letters.
 
 
 # Installation

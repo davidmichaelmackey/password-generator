@@ -16,8 +16,10 @@ https://www.w3docs.com/snippets/javascript/how-to-convert-string-to-number-in-ja
 https://www.javascript.com/
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
 https://learnjavascript.online/
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 https://www.w3schools.com/js/js_function_definition.asp
-
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 
 # License
 N/A

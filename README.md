@@ -9,13 +9,15 @@ N/A : No installation necessary. Just click and type in the input box and receiv
 To use this web app, click the "Generate Password" button and follow the prompts. Please note, 
 
 # Screenshot
-A screenshot of the website.
+[A screenshot of the website](./assets/img/03-javascript-homework-demo.png)
 
 # Credits
 https://www.w3docs.com/snippets/javascript/how-to-convert-string-to-number-in-javascript.html
 https://www.javascript.com/
 https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math
 https://learnjavascript.online/
+https://www.w3schools.com/js/js_function_definition.asp
+
 
 # License
 N/A

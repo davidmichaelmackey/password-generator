@@ -1,5 +1,6 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+
 // const inputFiled = document.querySelector("#franklin")
 
 // let username = "frank"
@@ -10,6 +11,7 @@ var generateBtn = document.querySelector("#generate");
 // console.log(username)
 // console.log("ba" + ("x" * 8) + "a")
 // !false
+
 function randomInt(min, max) {
   if (!max) {
     max = min
@@ -32,7 +34,7 @@ function generatePassword() {
 
   while (true) {
     console.log("running")
-    var userInput = window.prompt("How long do you want your password to be?")
+    var userInput = prompt("How long do you want your password to be?")
 
     if (userInput === null) {
       return
@@ -41,19 +43,19 @@ function generatePassword() {
     var passwordLength = parseInt(userInput)
 
     if (isNaN(passwordLength)) {
-      window.alert("That's not a number!")
+      alert("That's not a number!")
     } else if (passwordLength < 8 || passwordLength > 128) {
-      window.alert("Invalid password length. Length must be between 8 and 128 Characters.")
+      alert("Invalid password length. Length must be between 8 and 128 Characters.")
     } else {
       break
     }
 
   }
 
-  var userNumbers = window.confirm("Would you like to include numbers in your password?")
-  var userSpecialCharacters = window.confirm("Would you like to include special characters in your password?")
-  var userLowercase = window.confirm("Would you like to include lowercase letters in your password?")
-  var userUppercase = window.confirm("Would you like to include uppercase letters in your password?")
+  var userNumbers = confirm("Would you like to include numbers in your password?")
+  var userSpecialCharacters = confirm("Would you like to include special characters in your password?")
+  var userLowercase = confirm("Would you like to include lowercase letters in your password?")
+  var userUppercase = confirm("Would you like to include uppercase letters in your password?")
 
   var numbers = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
   var specialCharacters = ["!", "@", "#", "$", "%", "^", "&", "*"]
@@ -63,7 +65,7 @@ function generatePassword() {
   var optionsGroup = []
 
   for (var i = 0; i < lowercase.length; i++) {
-    [uppercasei] = lowercase[i].toUpperCase()
+    uppercase[i] = lowercase[i].toUpperCase()
   }
 
   if (userNumbers === true) {

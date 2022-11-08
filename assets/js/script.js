@@ -1,12 +1,25 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
+// const inputFiled = document.querySelector("#franklin")
 
+// let username = "frank"
+
+// if (inputFiled.checked == true) {
+//   username = "Suzy"
+// } else username = undefined
+// console.log(username)
+// console.log("ba" + ("x" * 8) + "a")
+// !false
 function randomInt(min, max) {
   if (!max) {
     max = min
     min = 0
   }
   var rand = Math.random()
+
+
+  // Math.floor(Math.random() * max)
+
   return Math.floor(min * (1 - rand) + rand * max)
 }
 
@@ -14,10 +27,11 @@ function getRandomItem(list) {
   return list[randomInt(list.length)]
 }
 
+
 function generatePassword() {
 
   while (true) {
-
+    console.log("running")
     var userInput = window.prompt("How long do you want your password to be?")
 
     if (userInput === null) {
@@ -49,7 +63,7 @@ function generatePassword() {
   var optionsGroup = []
 
   for (var i = 0; i < lowercase.length; i++) {
-    uppercase[i] = lowercase[i].toUpperCase()
+    [uppercasei] = lowercase[i].toUpperCase()
   }
 
   if (userNumbers === true) {
@@ -71,8 +85,8 @@ function generatePassword() {
   if (optionsGroup.length === 0) {
     optionsGroup.push(lowercase)
   }
-
   var generatedPassword = ""
+  console.log(optionsGroup)
 
   for (var i = 0; i < passwordLength; i++) {
     var randomList = getRandomItem(optionsGroup)
@@ -100,4 +114,7 @@ function writePassword() {
 }
 
 // Add event listener to generate button
-generateBtn.addEventListener("click", writePassword);
+generateBtn.addEventListener("click", (event) => {
+  console.log(event)
+  writePassword()
+});

@@ -3,7 +3,7 @@ The purpose of this project was to finish writing the variables, functions, and 
 
 
 # Installation
-N/A : No installation necessary. Just click and type in the input box and receive a new random password.
+N/A : No installation necessary. Just click and type in the input box and receive a new random password with a char length of your choosing.
 
 # Usage
 To use this web app, click the "Generate Password" button and follow the prompts. Please note, 
@@ -22,7 +22,7 @@ https://www.w3schools.com/js/js_function_definition.asp
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/while
 
 # License
-N/A
+Please refer to LICENSE in repo.
 
 # Deployment Page
-https://davidmackeydev.github.io/unique-password-generator/
+[Deployment](https://davidmichaelmackey.github.io/password-generator/)

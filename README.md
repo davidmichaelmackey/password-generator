@@ -58,7 +58,7 @@ Please refer to LICENSE.md in repo.
 
 ## Repository
 
-[Repository](https://github.com/davidmichaelmackey/password-generator)
+[Repository](https://github.com/davidmichaelmackey/password-generator/)
 
 ## Deployment
 

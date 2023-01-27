@@ -7,7 +7,6 @@ The purpose of this project was to finish writing the variables, functions, and 
 - Lowercase Letters
 - Uppercase Letters.
 
-
 ## Installation
 N/A : No installation necessary. Just click and type in the input box and receive a new random password with a char length of your choice.
 
@@ -48,7 +47,7 @@ To use this web app, click the "Generate Password" button and follow the prompts
 <br>
 
 ## License
-Please refer to LICENSE in repo.
+Please refer to LICENSE.md in repo.
 
-## Deployment Page
-[Deployment](https://davidmichaelmackey.github.io/password-generator/)
+## Deployment
+[Password Generator](https://davidmichaelmackey.github.io/password-generator/)
